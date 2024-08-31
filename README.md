@@ -5,3 +5,6 @@ This project contains a simple Python tool designed to perform WHOIS queries for
 # Usage
 
 python whois.py
+
+# Warning
+This tool is intended for educational purposes only. Please use responsibly and ensure you have proper authorization before performing queries on any domain. Unauthorized use may be illegal and unethical.
