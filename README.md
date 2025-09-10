@@ -1,10 +1,55 @@
-# whoisquerytool
+# WhoisLookup 🕵️‍♂️
 
-This project contains a simple Python tool designed to perform WHOIS queries for a given domain. The tool aims to provide basic domain information for cybersecurity analysis and domain research purposes.
+A minimal Python tool to perform **WHOIS queries** on domain names using the `whois` Python library.
 
-# Usage
+## 🌐 Example Usage
 
-python whois.py
+```bash
+$ python whois_lookup.py
+Please enter a domain: example.com
+<WhoisEntry example.com>
+```
 
-# Warning
-This tool is intended for educational purposes only. Please use responsibly and ensure you have proper authorization before performing queries on any domain. Unauthorized use may be illegal and unethical.
+The output will include domain registration details such as:
+
+-Registrar
+
+-Creation date
+
+-Expiration date
+
+-Name servers
+
+-Status
+
+-And more (depending on TLD)
+
+## 🚀 Features
+
+Simple CLI-based interface
+
+Uses whois Python library
+
+Gracefully handles exceptions
+
+Works for most generic and country-code domains
+
+## 📦 Requirements
+
+Python 3.x
+
+whois Python library
+
+```bash
+pip install python-whois
+```
+
+Note: On some systems, python-whois may be installed with:
+```bash
+pip install whois
+```
+
+## 🔐 Legal & Ethical Use
+
+This tool is intended for educational and authorized research purposes only.
+Always ensure you comply with domain registrar terms of service and legal requirements in your region.
