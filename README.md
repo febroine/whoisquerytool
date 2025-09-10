@@ -5,7 +5,7 @@ A minimal Python tool to perform **WHOIS queries** on domain names using the `wh
 ## 🌐 Example Usage
 
 ```bash
-$ python whois_lookup.py
+$ python whois.py
 Please enter a domain: example.com
 <WhoisEntry example.com>
 ```
